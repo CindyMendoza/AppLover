@@ -1,0 +1,137 @@
+.link{
+  font-weight: 700;
+  padding: 21px;
+  display: inline-block;
+}
+.logo{
+  float: right; /*hacemos que el logo lo posicione al lado derecho*/
+
+}
+header{
+  position: fixed;/*hace que nuestro menu este fijo*/
+  background: white;
+  width: 100%;
+  top:0;
+}
+.menu{
+  padding: 14px 70px;
+  overflow: auto;
+}
+#home{
+  background-image: url(../img/bg-home.jpg);/*nuestra imagen de portada*/
+  background-position: center;/*posicionar nuestra imagen al centro*/
+  background-repeat: no-repeat;/*no repetira nuestra imagen de fondo*/
+  background-size: cover;/*cubre todo el tamaño del contenedor*/
+  height: 554px;/*altura de nuestro home*/
+  text-align: center;/*alineacion al centro*/
+  margin-top: 80px;/*darle un margen en la parte de arriba*/
+
+}
+#home .container{
+  color: white;/*color blanco en los textos*/
+  padding: 70px;/*relleno de 70px en todos los lados (top,right,bottom y left)*/
+}
+.text-home{
+  font-size: 53px;/*tamaño de la tipografia*/
+}
+.btn-home{
+  background: #2ecc71;/*color de fondo*/
+  color: #fff;/*color del texto*/
+  padding: 11px 20px;/*relleno en el boton 11px(top-bottom) y 20px(lef-right)*/
+  border-radius: 1px;/*redondear el borde 1px*/
+  font-weight: 500;
+  text-transform: uppercase;/*convierte el texto a mayuscula*/
+  margin-top: 63px;/*margen en la parte de arriba 63px*/
+  display: inline-block;
+  font-size: 14px;/*tamaño de letra 14px*/
+}
+#services{
+   background-color: #f17c72; /*color de fondo*/
+   text-align: center;/*alineacion al centro*/;
+   color: #fff;/*color al texto:blanco*/
+   padding: 70px 7px;/*relleno en el boton 70px (top-bottom) y 7px (lef-right)*/
+}
+.box-services{
+  display: inline-block;
+  width: 30%;/*para que las cajas tengan un ancho de 30%*/
+  margin-top: 63px;/*margen de la parte de arriba:63px*/
+
+}
+.text-services{
+  font-size: 35px;/*tamaño de la letra*/
+  letter-spacing: 2px;/*espacio entre cada letra*/
+}
+footer{
+  text-align: center;
+  height: 70px;
+  background: #373b47;
+  color: white;
+  padding-top: 7px;
+}
+#work-section{
+  text-align: center;
+  padding: 70px 7px;/*relleno en el boton 70px (top-bottom) y 7px (lef-right)*/
+
+}
+.txt-work{
+  font-size: 35px;/*tamaño de la letra*/
+  letter-spacing: 2px;/*espacio entre cada letra*/
+}
+.img-hero{
+  overflow: hidden;
+}
+.div-img{
+  display: inline-block;
+  padding: 30px;
+  overflow: hidden;
+  width: 350px;
+  height: 350px;
+}
+.img-work:hover ,
+.img-work:focus{
+  cursor: pointer;
+}
+.img-work{
+  width: 100%;
+  height: 100%;
+}
+.modal{
+  position: fixed;
+  padding: 5% 20%;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  overflow: hidden;
+  background-color: #4febb7;
+}
+.modal-content{
+  position: relative;
+  width: 100%;
+  height: 100%;
+  border: 20px solid white;
+  box-sizing: border-box;
+
+}
+.close{
+  position:absolute;
+  top: 0%;
+  right:0%;
+  color:#4febb7;
+  background: none;
+  border: none;
+  font-size: 30px;
+}
+.close:hover,.close:focus{
+  cursor: pointer;
+}
+.div-mod{
+  display: inline-block;
+  box-sizing: border-box;
+  padding: 0px;
+  border: 0px;
+  margin: 0px;
+  width: auto;
+  height: auto;
+}
