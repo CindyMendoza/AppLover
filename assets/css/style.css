@@ -123,7 +123,7 @@ h4{
   box-sizing: border-box;
 }
 .close{
-  color: grey;
+  color: #4febb7;
   font-size: xx-large;
   position: absolute;
   line-height: 0;
