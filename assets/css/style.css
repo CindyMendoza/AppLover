@@ -1,85 +1,92 @@
+/*header*/
+header{
+  position: fixed;
+  background: white;
+  width: 100%;
+  top: 0;
+  padding: 20px 60px;
+}
 .link{
   font-weight: 700;
   padding: 21px;
   display: inline-block;
 }
 .logo{
-  float: right; /*hacemos que el logo lo posicione al lado derecho*/
-
-}
-header{
-  position: fixed;/*hace que nuestro menu este fijo*/
-  background: white;
-  width: 100%;
-  top:0;
+  float: right;
+  width: 70px;
 }
 .menu{
   padding: 14px 70px;
   overflow: auto;
 }
+/*home*/
 #home{
-  background-image: url(../img/bg-home.jpg);/*nuestra imagen de portada*/
-  background-position: center;/*posicionar nuestra imagen al centro*/
-  background-repeat: no-repeat;/*no repetira nuestra imagen de fondo*/
-  background-size: cover;/*cubre todo el tamaño del contenedor*/
-  height: 554px;/*altura de nuestro home*/
-  text-align: center;/*alineacion al centro*/
-  margin-top: 80px;/*darle un margen en la parte de arriba*/
+  background-image: url(../img/bg-home.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 554px;
+  text-align: center;
+  margin-top: 100px;
 
 }
 #home .container{
-  color: white;/*color blanco en los textos*/
-  padding: 70px;/*relleno de 70px en todos los lados (top,right,bottom y left)*/
+  color: white;
+  padding: 70px;
 }
 .text-home{
-  font-size: 53px;/*tamaño de la tipografia*/
+  font-size: 53px;
+  font-weight: 800;
 }
 .btn-home{
-  background: #2ecc71;/*color de fondo*/
-  color: #fff;/*color del texto*/
-  padding: 11px 20px;/*relleno en el boton 11px(top-bottom) y 20px(lef-right)*/
-  border-radius: 1px;/*redondear el borde 1px*/
+  background: #2ecc71;
+  color: #fff;
+  padding: 11px 20px;
+  border-radius: 1px;
   font-weight: 500;
-  text-transform: uppercase;/*convierte el texto a mayuscula*/
-  margin-top: 63px;/*margen en la parte de arriba 63px*/
+  text-transform: uppercase;
+  margin-top: 63px;
   display: inline-block;
-  font-size: 14px;/*tamaño de letra 14px*/
+  font-size: 14px;
 }
+/*services*/
 #services{
-   background-color: #f17c72; /*color de fondo*/
-   text-align: center;/*alineacion al centro*/;
-   color: #fff;/*color al texto:blanco*/
-   padding: 70px 7px;/*relleno en el boton 70px (top-bottom) y 7px (lef-right)*/
+   background-color: rgb(241, 124, 114);
+   text-align: center;
+   color: white;
+   padding: 70px 7px;
+}
+.text-services{
+  font-size: 35px;
+  letter-spacing: 2px;
+}
+#services *{
+  font-weight: 200;
+}
+
+h4{
+  padding: 0px 200px;
 }
 .box-services{
   display: inline-block;
-  width: 30%;/*para que las cajas tengan un ancho de 30%*/
-  margin-top: 63px;/*margen de la parte de arriba:63px*/
+  width: 30%;
+  margin-top: 63px;
+}
 
-}
-.text-services{
-  font-size: 35px;/*tamaño de la letra*/
-  letter-spacing: 2px;/*espacio entre cada letra*/
-}
-footer{
-  text-align: center;
-  height: 70px;
-  background: #373b47;
-  color: white;
-  padding-top: 7px;
-}
+/*work section*/
 #work-section{
   text-align: center;
-  padding: 70px 7px;/*relleno en el boton 70px (top-bottom) y 7px (lef-right)*/
+  padding: 70px 7px;
 
 }
 .txt-work{
-  font-size: 35px;/*tamaño de la letra*/
-  letter-spacing: 2px;/*espacio entre cada letra*/
+  font-size: 35px;
+  letter-spacing: 2px;
 }
 .img-hero{
   overflow: hidden;
 }
+/*work*/
 .div-img{
   display: inline-block;
   padding: 30px;
@@ -134,4 +141,13 @@ footer{
   margin: 0px;
   width: auto;
   height: auto;
+}
+
+/**/
+footer{
+  text-align: center;
+  height: 70px;
+  background: #373b47;
+  color: white;
+  padding-top: 7px;
 }
